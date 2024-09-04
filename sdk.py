@@ -2,7 +2,7 @@ from newscatcherapi import NewsCatcherApiClient
 from datetime import datetime, timedelta
 
 KEYWORDS = 'Employee Ownership, ESOP, Worker Cooperative, Worker Coop, Employee Ownership Trust, EOT, Direct Employee Ownership, Employee Profit Sharing, employee engagement, wealth gap, retirement gap, business succession, business exit, sale to employees, Private equity & employee ownership';
-API_KEY = 'A6p-Xe0UKBQqftsF0I90b-j0wT-iaZwB'
+API_KEY = 'XXX'
 newscatcherapi = NewsCatcherApiClient(x_api_key=API_KEY)
 
 def search_news(query, lang='en', countries=['US'], from_date=None, to_date=None, is_paid_content=False, exclude_duplicates=True):
